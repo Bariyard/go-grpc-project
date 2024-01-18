@@ -1,0 +1,8 @@
+go 1.21.6
+
+use (
+	./go-grpc-api-gateway
+	./go-grpc-auth-svc
+  ./go-grpc-product-svc
+  ./go-grpc-order-svc
+)
